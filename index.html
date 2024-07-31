@@ -5,32 +5,136 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
     <title>Yahya Al Malki</title>
 </head>
 <body>
     <header>
-        <a href="#" class="logo">Yahya</a>
-        <nav class="navigation">
-            <a href="#Services">Services</a>
-            <a href="#Projects">Projects</a>
-            <a href="#Contact">Contact</a>
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+              <a class="navbar-brand" href="#">YAHYA</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
 
-    <section class="main">
-        <div>
-            <h2>Hello, I'm Yahya <br><span>Full Stack Developer</span></h2>
-            <h3>Who change the Futuer</h3>
-            <a href="#Project" class="main-btn">View my Work</a>
-            <div class="social-icon">
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-                <a href="#"><i class="fa-brands fa-github"></i></a>
-            </div>
-        </div>
-    </section>
+    <div class="main">
+
     
+    <div class="container col-xxl-8 px-4 py-5 ">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3">Full Stack Developer</h1>
+            <h3>Who change the Futuer</h3>
+            <div class="social-icon">
+                <a href="https://www.linkedin.com/in/yahya-almalki-48948921b/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://wa.me/96898569562"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://github.com/yahyalmalki"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start my-3">
+              <button type="button" class="btn btn-primary px-4 me-md-2">View my Work</button>
+            </div>
+          </div>
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./assets/image/٢٠٢٣٠٣٠٧_١٣٣٥٣٤3-removebg.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-gray">    
+    <div class="container px-4 py-5 bg-gray" id="featured-3">
+        <h1 class="pb-2 text-center">Services</h1>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="feature col text-center px-5">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-white fs-2 mb-3">
+                <img src="./assets/image/software-developer.png" class="image-icon" alt="">
+            </div>
+            <h2>Website Design</h2>
+            <p>I create visually appealing, user-friendly websites that are fully functional, responsive, and optimized for search engines. My custom solutions help businesses establish a strong online presence.</p>
+          </div>
+          <div class="feature col text-center px-5">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-white fs-2 mb-3">
+              <img src="./assets/image/mobile-app.png" class="image-icon" alt="">
+            </div>
+            <h2>Mobile Application Development</h2>
+            <p>I develop intuitive and efficient mobile apps for both Android and iOS platforms. From concept to deployment, I deliver applications that enhance user experiences and drive business growth.</p>
+          </div>
+          <div class="feature col text-center px-5">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-white fs-2 mb-3">
+                <img src="./assets/image/lecture.png" class="image-icon" alt="">
+            </div>
+            <h2>Teaching</h2>
+            <p>I provide expert teaching in web development, mobile app development, and programming. My hands-on, student-centered approach ensures learners gain practical skills and real-world applications.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container px-4 py-5" id="custom-cards">
+        <h1 class="pb-2 text-center">Projects</h1>
+    
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg" style="background-image: url('./assets/image/emile-perron-xrVDYZRGdw4-unsplash.jpg'); background-size: cover;">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Portfolio</h2>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg" style="background-image: url('./assets/image/altumcode-PNbDkQ2DDgM-unsplash.jpg'); background-size: cover;">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Masarat</h2>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg" style="background-image: url('./assets/image/nathana-reboucas-4adsYuQiaRw-unsplash.jpg'); background-size: cover;">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">E-Commerce</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+              <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-muted">&copy; 2024 Yahya, Inc</span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-muted" href="https://www.linkedin.com/in/yahya-almalki-48948921b/"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li class="ms-3"><a class="text-muted" href="https://wa.me/96898569562"><i class="fa-brands fa-whatsapp"></i></a></li>
+            <li class="ms-3"><a class="text-muted" href="https://github.com/yahyalmalki"><i class="fa-brands fa-github"></i></a></li>
+          </ul>
+        </footer>
+      </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

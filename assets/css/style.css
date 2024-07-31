@@ -8,7 +8,7 @@
     scroll-behavior: smooth;
 }
 
-header{
+/* header{
     background-color: #f0f0f0;
     width: 100%;
     position: fixed;
@@ -41,63 +41,30 @@ header{
 
 section{
     padding: 100px 200px;
-}
+} */
 
 .main{
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    background: url(../image/emile-perron-xrVDYZRGdw4-unsplash.jpg);
+    background: url(../image/artem-sapegin-b18TRXc8UPQ-unsplash.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
-.main h2{
-    color: white;
-    font-size: 1.4em;
-    font-weight: 500;
-}
-
-.main h2 span{
-    display: inline-block;
-    margin-top: 10px;
-    color: #3a6cf4;
-    font-size: 3em;
-    font-weight: 600;
-}
-
-.main h3{
-    color: white;
-    font-size: 2em;
-    font-weight: 700;
-    letter-spacing: 1px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-}
-
-.main-btn{
-    text-decoration: none;
-    color: white;
-    background-color: #3a6cf4;
-    font-size: 1.1em;
-    font-weight: 600;
-    display: inline-block;
-    padding: 0.9375em 2.1875em;
-    letter-spacing: 1px;
-    border-radius: 15px;
-    margin-bottom: 40px;
-    transition: 0.7s ease;
-}
-
-.main-btn:hover{
-    background-color: #0a49f6;
-    transform: scale(1.1);
-}
-
 .social-icon a{
-    color: white;
+    color: black;
     font-size: 1.7em;
     padding-right: 30px;
+}
+
+.bg-gray{
+    background-color: rgb(191, 191, 191);
+}
+
+.image-icon{
+    width: 3em;
+    height: 3em;
+}
+
+.text-dark{
+    color: black;
 }
